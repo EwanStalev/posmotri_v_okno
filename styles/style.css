@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans Condensed",sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -174,7 +174,7 @@ ol {
   outline: none;
 }
 .button:focus-visible {
-  border: thick double #fff;
+  border: 2px double #fff;
 }
 .search-form__submit-button {
   min-width: 194px;
@@ -186,7 +186,7 @@ ol {
 }
 .title {
   margin-bottom: 26px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -244,7 +244,7 @@ ol {
   width: 100%;
 }
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   margin-bottom: 6px;
   font-size: 30px;
   font-weight: 700;
@@ -261,8 +261,7 @@ ol {
   height: 103px;
   object-fit: cover;
 }
-.more-button-template {
-}
+
 .more-button {
   width: 100%;
 }
